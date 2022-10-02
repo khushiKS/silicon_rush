@@ -1,0 +1,253 @@
+#VRML_SIM R2022b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/humans/pedestrian/protos/Pedestrian.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/apartment_structure/protos/Door.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/apartment_structure/protos/DoorLever.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/apartment_structure/protos/Window.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/bathroom/protos/WashingMachine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/bathroom/protos/Toilet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/bathroom/protos/Bathtube.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/bathroom/protos/BathroomSink.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/bedroom/protos/Bed.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/cabinet/protos/Cabinet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/chairs/protos/Chair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/living_room_furniture/protos/Sofa.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/plants/protos/BunchOfSunFlowers.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/plants/protos/PottedTree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/lights/protos/FloorLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/kitchen/components/protos/Sink.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/kitchen/components/protos/Worktop.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/kitchen/fridge/protos/Fridge.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/kitchen/utensils/protos/Cookware.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/kitchen/utensils/protos/Spoon.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.7511284408205394 -0.0029036109247312434 -0.6601497060774194 3.1466927132179263
+  position -0.18621468061154434 -2.9734957811985567 11.658823227215954
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  name "rectangle arena(4)"
+  floorSize 8 8
+}
+Cookware {
+  translation 3.499683585587933 -1.2501888918086355 0.7377063892303309
+  rotation 0.08799147521524481 -0.2236896474685062 -0.9706804015250645 0.005501686337976838
+  color 0.7 0 0
+}
+Worktop {
+  translation 3 -1.25 0.71
+}
+Worktop {
+  translation 3.5 -1.25 0.71
+  name "worktop(1)"
+}
+Sink {
+  translation 2 -3.75 0.72
+  rotation 0 0 1 1.57
+  name "sink(2)"
+}
+FloorLight {
+  translation 1 3.5 0
+  bulbColor 0.2 0.4 1
+}
+Spoon {
+  translation 3.2964804649480297 -1.2472997568161692 0.7285937401944315
+  rotation 0.8441854966249045 -0.42431712063860644 0.3275756835009666 2.814817528491854
+}
+Fridge {
+  hidden position_0_0 -4.825966810052276e-08
+  hidden position_0_1 5.093425552367257e-08
+  hidden rotation_1 0 0 -1 1.5196262340524156e-07
+  hidden rotation_2 0 0 1 1.632340423778195e-07
+  translation 3.5 -3.5 0
+  rotation 0 0 1 1.57
+}
+PottedTree {
+  translation 3.5 3.5 0
+}
+BunchOfSunFlowers {
+  translation 0.25 2 0
+}
+Sofa {
+  translation 2 1 0
+  rotation 0 0 1 1.57
+  color 0.3 0.3 0.6
+}
+Chair {
+  translation -0.5 2.75 0
+  name "chair(1)"
+}
+Chair {
+  translation -0.5 2 0
+}
+BathroomSink {
+  translation 0.5 -3.5 0
+  name "sink(1)"
+}
+Wall {
+  translation 2.75 -1 0
+  rotation 0 0 1 1.57
+  name "wall(11)"
+  size 0.2 2.5 2.4
+}
+Wall {
+  translation 1 -2.75 0
+  name "wall(10)"
+  size 0.2 2.5 2.4
+}
+Wall {
+  translation -2.75 -0.75 0
+  rotation 0 0 1 1.57
+  name "wall(9)"
+  size 0.2 2.5 2.4
+}
+Cabinet {
+  hidden position_6_0 2.2414091156585367e-13
+  hidden translation_7 0.002111597954842239 -1.1203445829471859e-05 0
+  hidden rotation_7 0 0 -1 0.010611244133213066
+  hidden position_10_0 -1.3787113916183245e-13
+  hidden translation_11 -0.0016784812363688066 8.32801837630237e-06 0
+  hidden rotation_11 0 0 -1 0.009923197063629405
+  hidden translation_15 -0.0005952907389889481 0 0
+  hidden translation_23 -0.000577127576242401 0 0
+  hidden translation_31 -0.0005978164149868155 0 0
+  hidden translation_39 0.001630360562263581 0 0
+  translation -0.5 -3.5 0
+  rotation 0 0 1 3.14
+  name "cabinet(1)"
+}
+Cabinet {
+  hidden position_6_0 2.2397419664723483e-13
+  hidden translation_7 0.0639261724397665 -0.010547235421707518 0
+  hidden rotation_7 0 0 -1 0.3270354803038575
+  hidden position_10_0 -1.3804939574358074e-13
+  hidden translation_11 0.001966773600689792 1.1434611725341659e-05 0
+  hidden rotation_11 0 0 1 0.011627655455091472
+  hidden translation_15 0.0004765268982791088 0 0
+  hidden translation_23 0.0004965990425279286 0 0
+  hidden translation_31 0.00047403091014582 0 0
+  hidden translation_39 -0.0011373919752667347 0 0
+  translation -0.6 -2.75 0
+  rotation 0 0 1 3.14
+}
+Bed {
+  translation -2.5 -3 0
+}
+BathroomSink {
+  translation -4 2.5 0
+}
+Bathtube {
+  translation -1.5 3 0
+}
+Wall {
+  translation -1 2.5 0
+  size 0.2 3 2.4
+}
+Toilet {
+  translation -3 1.75 0
+  rotation 0 0 1 1.57
+}
+WashingMachine {
+  translation -3.5 3.5 0.5
+}
+Wall {
+  translation -3 1 0
+  rotation 0 0 1 1.57
+  name "wall(7)"
+  size 0.2 2 2.4
+}
+Wall {
+  translation -4 -2.25 0
+  name "wall(6)"
+  size 0.2 3.3 2.4
+}
+Wall {
+  translation -4 2.25 0
+  name "wall(5)"
+  size 0.2 3.5 2.4
+}
+Window {
+  translation -4 0 0
+  size 0.2 1.2 2.4
+}
+Wall {
+  translation 4 2.25 0
+  name "wall(4)"
+  size 0.2 3.5 2.4
+}
+Wall {
+  translation 4 -2.25 0
+  name "wall(3)"
+  size 0.2 3.5 2.4
+}
+Wall {
+  translation -0.5 -2.25 0
+  name "wall(8)"
+  size 0.2 3.5 2.4
+}
+Wall {
+  translation 0 -4 0
+  rotation 0 0 1 1.57
+  name "wall(1)"
+  size 0.2 8 2.4
+}
+Wall {
+  translation 0 4 0
+  rotation 0 0 1 1.57
+  name "wall(2)"
+  size 0.2 8 2.4
+}
+Door {
+  hidden translation_5 0.0010000029715374614 9.321241556392579e-10 1.2212453270876722e-15
+  translation 4 0 0
+  position 2.4526154912996415e-07
+  doorHandle DoorLever {
+    translation 0 0 -1.0976322671885086e-05
+  }
+}
+Pedestrian {
+  shoesColor 0 0.3334 0
+}
+Table {
+  translation 0 2.25 0
+}
+E-puck {
+  hidden position_0_0 2428.5198767445636
+  hidden position_0_1 2481.523866315194
+  hidden linearVelocity_0 -0.027603018688549367 0.05647493284506107 -1.8170352104776275e-08
+  hidden angularVelocity_0 -0.003577111301103033 -0.001748371237850882 -4.146039518102329e-12
+  hidden rotation_1 0 1 0 6.16357669907872
+  hidden linearVelocity_1 -0.02761176031899487 0.05649281881197273 -2.5225022084641717e-11
+  hidden angularVelocity_1 -2.824640964125705 -1.380588005930227 7.721150918578508e-08
+  hidden rotation_2 0 -0.9999999999999999 0 3.5867220066480745
+  hidden linearVelocity_2 -0.027611760988869628 0.05649281843797662 3.784079713362882e-11
+  hidden angularVelocity_2 -2.8246409303252924 -1.3805880750810313 -7.619239186129521e-08
+  translation 3.779978845472042 0.13006632646151026 -6.395454286639221e-05
+  rotation 0.0004342568716655566 -0.0002711018726356405 0.9999998689623634 2.025416412125834
+  controller "my_controller_4"
+  camera_width 42
+  camera_height 42
+  groundSensorsSlot [
+    Camera {
+      name "camera1"
+      recognitionColors [
+        0 0.3334 0
+      ]
+      recognition Recognition {
+        frameColor 0 0 1
+      }
+    }
+  ]
+}
